@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Bac X. Nguyen # the website title (if blank, full name will be used instead)
 first_name: Bac
 middle_name: X.
 last_name: Nguyen
@@ -17,8 +17,9 @@ keywords: Computer vision, Artifical Intelligent, Deep learning, Machine learnin
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon
-url: https://ngxbac.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
+# url: https://ngxbac.github.io # the base hostname & protocol for your site
+url: http://csce.uark.edu
+baseurl: /~xnguyen/ # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -72,8 +73,9 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
+  Email or Linkedin would be great ways to reach me.
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics:  G-7GTD7SJX99 # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
@@ -259,7 +261,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
