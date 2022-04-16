@@ -17,7 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Bac Nguyen. I am a PhD student under supervision of Professor [Khoa Luu](http://csce.uark.edu/~khoaluu/), CSCE - University of Arkansas, United State. My research topics are more about Computer vision, Unsupervised learning, Self-supervised learning, etc. 
-In 2020, I received Master of Computer Science at Chonnam National University with Professor [Gueesang Lee](https://eng.jnu.ac.kr/eng_eng/15205/subview.do?enc=Zm5jdDF8QEB8JTJGcHJvZiUyRmVuZ19lbmclMkYzMTQlMkY0MzklMkZ2aWV3LmRvJTNG). 
+Xuan-Bac Nguyen is a a PhD student at CSCE - University of Arkansas, United State under supervision of Professor [Khoa Luu](http://csce.uark.edu/~khoaluu/). He received Master of Computer Science at Chonnam National University with Professor [Gueesang Lee](https://eng.jnu.ac.kr/eng_eng/15205/subview.do?enc=Zm5jdDF8QEB8JTJGcHJvZiUyRmVuZ19lbmclMkYzMTQlMkY0MzklMkZ2aWV3LmRvJTNG) and B.Sc degree in Electronics and Telecommunication, University of Engineering and Technology, Vietnam National University.
+His research topics are more about Computer vision, Unsupervised learning, Self-supervised learning, etc.
 
-I also have several experiments in industry as a Senior Research Engineer at [VinAI Research Vietnam](https://www.vinai.io), an Embedded Software Engineer at i-Bridge (Japan), etc.
+Bac used to be a top [Kaggler](https://www.kaggle.com/backaggle) (highest rank ~50/130000 worldwide). He got serveral achivements from top AI competitions at CVPR, MICCAI, ISBI, RSNA, etc.
+
+He also worked a Senior AI Research Engineer at [VinAI Research Vietnam](https://www.vinai.io), an Embedded Software Engineer at i-Bridge (Japan) and has a solid experiments working as a bridge between academida and industry. 
