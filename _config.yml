@@ -18,7 +18,7 @@ keywords: Computer vision, Artifical Intelligent, Deep learning, Machine learnin
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon
 url: https://ngxbac.github.io # the base hostname & protocol for your site
-baseurl: 
+baseurl:
 # url: http://csce.uark.edu
 # baseurl: /~xnguyen/ # the subpath of your site, e.g. /blog/
 last_updated: True # set to true if you want to display last updated in the footer
