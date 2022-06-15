@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="2D quantum material identification">
+   <meta name="author" content="Marko Mihajlovic">
+   <title>2D quantum material identification</title>
+   <meta property="og:title" content="[CVPR 2021] LEAP: Learning Articulated Occupancy of People" />
+   <meta property="og:description"
+      content="LEAP is a neural network architecture for representing volumetric animatable human bodies.">
+   <meta property="og:image" content="https://neuralbodies.github.io/LEAP/images/teaser1200x630.jpg" />
+
+   <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:title" content="[CVPR 2021] LEAP: Learning Articulated Occupancy of People" />
+   <meta name="twitter:description"
+      content="LEAP is a neural network architecture for representing volumetric animatable human bodies." />
+   <meta name="twitter:image" content="https://neuralbodies.github.io/LEAP/images/teaser1200x630.jpg" />
+   <meta name="twitter:image:alt" content="LEAP CVPR 2021" />
+   <!-- Bootstrap core CSS -->
+   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom styles for this template -->
+   <link href="css/scrolling-nav.css" rel="stylesheet">
+   <!-- nice figures  -->
+   <link rel="stylesheet" href="css/font-awesome.css">
+   <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body id="page-top">
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+         <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">LEAP</a> -->
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#about">About</a>
+               </li>
+               <!-- <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#video">Video</a>
+               </li> -->
+               <!-- <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#code">Code</a>
+               </li> -->
+               <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#pubs">Publication</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <header class="bg-light text-black">
+      <div class="container text-center">
+         <h1>Two-Dimensional Quantum Material Identification via Self-Attention and Soft-labeling in Deep Learning
+         </h1>
+         <!-- <h2>Learn to detect 2D quantum material </h2> -->
+         <!-- <br> -->
+         <!-- <p class="lead"><i>LEAP is a neural network architecture for representing volumetric animatable human bodies.
+               It follows traditional human body modeling techniques and leverages a statistical human prior to
+               generalize to unseen humans.</i>
+         </p> -->
+      </div>
+   </header>
+   <section id="about" class="about-section">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-10 mx-auto">
+               <p class="lead text-justify">
+                  In quantum machine field, detecting two-dimensional (2D) materials in Silicon chips is one of the most
+                  critical problems.
+                  Instance segmentation can be considered as a potential approach to solve this problem. However,
+                  similar to other deep
+                  learning methods, the instance segmentation requires a large scale training dataset and high quality
+                  annotation in order
+                  to achieve a considerable performance. In practice, preparing the training dataset is a challenge
+                  since annotators have
+                  to deal with a large image, e.g 2K resolution, and extremely dense objects in this problem. In this
+                  work, we present a
+                  novel method to tackle the problem of missing annotation in instance segmentation in 2D quantum
+                  material identification.
+                  We propose a new mechanism for automatically detecting false negative objects and an attention based
+                  loss strategy to
+                  reduce the negative impact of these objects contributing to the overall loss function. We experiment
+                  on the 2D material
+                  detection datasets, and the experiments show our method outperforms previous works.
+                  <!-- where linear blend skinning (LBS) functions are usually applied to drive the deformation of a human body from a canonical space to a posed space.  -->
+               </p>
+
+               <!-- <br> <br>
+               <div class="img-wide text-center">
+                  <p><img class="img-fluid" alt="teaser" src="images/teaser figure ppl.png"></p>
+               </div>
+               <br><br> -->
+
+               <h3>Overview</h3>
+               <p class="lead text-justify">
+                  Our proposed method employs Mask-RCNN as the baseline architecture. It contains
+                  three main components namely: Backbone (B), Region Proposal Network (RPN) and Region of Interest Head
+                  (ROI).
+               </p>
+               <p class="lead text-justify">
+                  Mask-RCNN is a two-stage framework where the results of the first stage will be the input of the
+                  second one. It raises a
+                  problem that if the first stage is not good enough, the performance of second stage will fall apart.
+                  The first stage includes RPN that also nominates the potential objects and their shapes represented by
+                  anchors.
+                  Apart from prior methods using selective search, RPN can be learnt via back-propagation. In
+                  the case of missing annotation, there are objects that do not have any bounding boxes. In a typical
+                  way, RPN is confused by treating these potential objects as a background while some similar objects
+                  are considered
+                  as foreground. In other words, missing annotation is a form of existing false negative and leads to
+                  lower recall of proposing potential objects. As the results, the next second stage will be influenced.
+               </p>
+               <p class="lead text-justify">
+                  Our main contribution is to focus on the RPN to manipulate the missing annotation problem,
+                  enhance the
+                  confidence of proposed objects and subsequently improve the next stage as well as overall performance.
+                  Our proposed method is illustrated as in figure bellow.
+               </p>
+               <br> <br>
+               <div class="text-center">
+                  <p><img class="img-fluid" alt="method overview" src="images/network.png"></p>
+               </div>
+               <br><br> <br>
+               <!-- <h4>Use-case</h4> -->
+               <p class="lead text-justify">
+                  The experimental results on 2D material datasets have shown the advantages of our work compared to
+                  prior work by a large
+                  margin.
+               </p>
+               <br> <br>
+               <div class="text-center">
+                  <p><img class="img-fluid" alt="Realistic human bodies" src="images/quality_results.png"></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- <section id="code" class="">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-10 mx-auto">
+               <h2 class="section-title-tc">
+                  <a class="publink" href="https://github.com/neuralbodies/leap" target="_blank"
+                     style="text-decoration: none">Code <i class="fa fa-github"></i></a>
+               </h2>
+            </div>
+         </div>
+      </div>
+   </section> -->
+
+   <section id="pubs" class="">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-10 mx-auto">
+               <h2 class="section-title-tc">Publication</h2>
+               <br>
+               Xuan Bac Nguyen, Apoorva Bisht, Hugh Churchill, Khoa Luu<br>
+               <a class="publink" target="_blank" href="https://arxiv.org/pdf/2205.15948.pdf"><b>
+                     Two-Dimensional Quantum Material Identification via Self-Attention and Soft-labeling in Deep
+                     Learning</b><br></a>
+               <!-- In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021 -->
+               <br><br>
+               <pre style="display: block; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px">@article{Nguyen2022TwoDimensionalQM,
+               title={Two-Dimensional Quantum Material Identification via Self-Attention and Soft-labeling in Deep Learning},
+               author={Xuan-Bac Nguyen and Apoorva Bisht and Hugh Churchill and Khoa Luu},
+               journal={ArXiv},
+               year={2022},
+               volume={abs/2205.15948}
+}</pre>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="team" class="team-section">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-10 mx-auto">
+               <h2 class="section-title-tc">Team</h2>
+               <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                     <div class="mainflip">
+                        <div class="card">
+                           <div class="card-body text-center">
+                              <p><img class=" img-fluid" src="images/avatars/khoaluu.jpg" alt="card image"></p>
+                              <h4 class="card-title">Khoa Luu</h4>
+                              <ul class="list-inline">
+                                 <!-- <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank"
+                                       href="https://twitter.com/marko_mih">
+                                       <i class="fa fa-twitter"></i>
+                                    </a>
+                                 </li> -->
+                                 <!-- <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank"
+                                       href="https://www.linkedin.com/in/marko-mihajlovic/">
+                                       <i class="fa fa-linkedin"></i>
+                                    </a>
+                                 </li>
+                                 <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank"
+                                       href="http://markomih.github.io/">
+                                       <i class="fa fa-user"></i>
+                                    </a>
+                                 </li> -->
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                     <div class="mainflip">
+                        <div class="card">
+                           <div class="card-body text-center">
+                              <p><img class=" img-fluid" src="images/avatars/xuanbac.jpg" alt="card image"></p>
+                              <h4 class="card-title">Xuan Bac Nguyen</h4>
+                              <ul class="list-inline">
+                                 <!-- <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank"
+                                       href="https://twitter.com/cnsdqzyz">
+                                       <i class="fa fa-twitter"></i>
+                                    </a>
+                                 </li>
+                                 <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank"
+                                       href="https://www.linkedin.com/in/yan-zhang-3119b11a/">
+                                       <i class="fa fa-linkedin"></i>
+                                    </a>
+                                 </li> -->
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                     <div class="mainflip">
+                        <div class="card">
+                           <div class="card-body text-center">
+                              <p><img class=" img-fluid" src="images/avatars/apoorva.png" alt="card image"></p>
+                              <h4 class="card-title">Apoorva Bisht</h4>
+                              <ul class="list-inline">
+                                 <!-- <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank"
+                                       href="https://twitter.com/Michael_J_Black">
+                                       <i class="fa fa-twitter"></i>
+                                    </a>
+                                 </li>
+                                 <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank"
+                                       href="https://www.linkedin.com/in/michael-j-black-41751114/">
+                                       <i class="fa fa-linkedin"></i>
+                                    </a>
+                                 </li> -->
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                     <div class="mainflip">
+                        <div class="card">
+                           <div class="card-body text-center">
+                              <p><img class=" img-fluid" src="images/avatars/churchill.jpg" alt="card image"></p>
+                              <h4 class="card-title">Hugh Churchill</h4>
+                              <ul class="list-inline">
+                                 <!-- <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank"
+                                       href="https://twitter.com/SiyuTang3">
+                                       <i class="fa fa-twitter"></i>
+                                    </a>
+                                 </li>
+                                 <li class="list-inline-item">
+                                    <a class="social-icon text-xs-center" target="_blank"
+                                       href="https://www.linkedin.com/in/siyu-tang-06875324/">
+                                       <i class="fa fa-linkedin"></i>
+                                    </a>
+                                 </li> -->
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Footer -->
+   <footer class="py-5 bg-dark">
+      <div class="container">
+         <p class="m-0 text-center text-white">Copyright &copy; VLG 2021</p>
+      </div>
+      <!-- /.container -->
+   </footer>
+   <!-- Bootstrap core JavaScript -->
+   <script src="vendor/jquery/jquery.min.js"></script>
+   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <!-- Plugin JavaScript -->
+   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+   <!-- Custom JavaScript for this theme -->
+   <script src="js/scrolling-nav.js"></script>
+</body>
+
+</html>
