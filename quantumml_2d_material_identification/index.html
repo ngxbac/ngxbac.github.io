@@ -11,22 +11,11 @@
       content="Two-Dimensional Quantum Material Identification via Self-Attention and Soft-labeling in Deep Learning " />
    <meta property="og:description"
       content="Two-Dimensional Quantum Material Identification via Self-Attention and Soft-labeling in Deep Learning">
-   <!-- <meta property="og:image" content="https://neuralbodies.github.io/LEAP/images/teaser1200x630.jpg" /> -->
-
-   <!-- <meta name="twitter:card" content="summary_large_image" />
-   <meta name="twitter:title"
-      content="Two-Dimensional Quantum Material Identification via Self-Attention and Soft-labeling in Deep Learning" />
-   <meta name="twitter:description"
-      content="LEAP is a neural network architecture for representing volumetric animatable human bodies." /> -->
-   <!-- <meta name="twitter:image" content="https://neuralbodies.github.io/LEAP/images/teaser1200x630.jpg" /> -->
-   <!-- <meta name="twitter:image:alt" content="LEAP CVPR 2021" /> -->
-   <!-- Bootstrap core CSS -->
    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
    <!-- Custom styles for this template -->
    <link href="css/scrolling-nav.css" rel="stylesheet">
    <!-- nice figures  -->
    <link rel="stylesheet" href="css/font-awesome.css">
-   <!-- <link rel="icon" type="image/png" href="images/favicon.png"> -->
 
 </head>
 
@@ -53,113 +42,61 @@
                <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#pubs">Publication</a>
                </li>
-               <li class="nav-item">
+
+               <!-- <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-               </li>
+               </li> -->
+
             </ul>
          </div>
       </div>
    </nav>
+
    <header class="bg-light text-black">
       <div class="container text-center">
-         <h1>Two-Dimensional Quantum Material Identification via Self-Attention and Soft-labeling in Deep Learning
-         </h1>
-         <!-- <h2>Learn to detect 2D quantum material </h2> -->
+         <h1>Machine Learning and AI for Autonomous Identification of 2D Crystals</h1>
+         <!-- <h2>Learn to identify 2D quantum crystals </h2> -->
          <!-- <br> -->
-         <!-- <p class="lead"><i>LEAP is a neural network architecture for representing volumetric animatable human bodies.
-               It follows traditional human body modeling techniques and leverages a statistical human prior to
-               generalize to unseen humans.</i>
-         </p> -->
+         <p class="lead"><i>Our overarching mission is to accelerate two-dimensional materials research for quantum
+               technologies in the US. </i>
+         </p>
       </div>
    </header>
-   <section id="about" class="about-section">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-10 mx-auto">
-               <p class="lead text-justify">
-                  In quantum machine field, detecting two-dimensional (2D) materials in Silicon chips is one of the most
-                  critical problems.
-                  Instance segmentation can be considered as a potential approach to solve this problem. However,
-                  similar to other deep
-                  learning methods, the instance segmentation requires a large scale training dataset and high quality
-                  annotation in order
-                  to achieve a considerable performance. In practice, preparing the training dataset is a challenge
-                  since annotators have
-                  to deal with a large image, e.g 2K resolution, and extremely dense objects in this problem. In this
-                  work, we present a
-                  novel method to tackle the problem of missing annotation in instance segmentation in 2D quantum
-                  material identification.
-                  We propose a new mechanism for automatically detecting false negative objects and an attention based
-                  loss strategy to
-                  reduce the negative impact of these objects contributing to the overall loss function. We experiment
-                  on the 2D material
-                  detection datasets, and the experiments show our method outperforms previous works.
-                  <!-- where linear blend skinning (LBS) functions are usually applied to drive the deformation of a human body from a canonical space to a posed space.  -->
-               </p>
 
-               <!-- <br> <br>
-               <div class="img-wide text-center">
-                  <p><img class="img-fluid" alt="teaser" src="images/teaser figure ppl.png"></p>
-               </div>
-               <br><br> -->
 
-               <h3>Overview</h3>
-               <p class="lead text-justify">
-                  Our proposed method employs Mask-RCNN as the baseline architecture. It contains
-                  three main components namely: Backbone (B), Region Proposal Network (RPN) and Region of Interest Head
-                  (ROI).
-               </p>
-               <p class="lead text-justify">
-                  Mask-RCNN is a two-stage framework where the results of the first stage will be the input of the
-                  second one. It raises a
-                  problem that if the first stage is not good enough, the performance of second stage will fall apart.
-                  The first stage includes RPN that also nominates the potential objects and their shapes represented by
-                  anchors.
-                  Apart from prior methods using selective search, RPN can be learnt via back-propagation. In
-                  the case of missing annotation, there are objects that do not have any bounding boxes. In a typical
-                  way, RPN is confused by treating these potential objects as a background while some similar objects
-                  are considered
-                  as foreground. In other words, missing annotation is a form of existing false negative and leads to
-                  lower recall of proposing potential objects. As the results, the next second stage will be influenced.
-               </p>
-               <p class="lead text-justify">
-                  Our main contribution is to focus on the RPN to manipulate the missing annotation problem,
-                  enhance the
-                  confidence of proposed objects and subsequently improve the next stage as well as overall performance.
-                  Our proposed method is illustrated as in figure bellow.
-               </p>
-               <br> <br>
-               <div class="text-center">
-                  <p><img class="img-fluid" alt="method overview" src="images/network.png"></p>
-               </div>
-               <br><br> <br>
-               <!-- <h4>Use-case</h4> -->
-               <p class="lead text-justify">
-                  The experimental results on 2D material datasets have shown the advantages of our work compared to
-                  prior work by a large
-                  margin.
-               </p>
-               <br> <br>
-               <div class="text-center">
-                  <p><img class="img-fluid" alt="Realistic human bodies" src="images/quality_results.png"></p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-
-   <!-- <section id="code" class="">
+   <section id="solution" class="">
       <div class="container">
          <div class="row">
             <div class="col-lg-10 mx-auto">
                <h2 class="section-title-tc">
-                  <a class="publink" href="https://github.com/neuralbodies/leap" target="_blank"
-                     style="text-decoration: none">Code <i class="fa fa-github"></i></a>
+                  2D Quantum Crystals Identification
                </h2>
+
+               <p class="lead text-justify">
+                  We provide a flexible and generalized solution for 2D quantum crystals identification running on
+                  realtime with high accuracy. The algorithm
+                  is able to work with any kind of flakes (e.g hBN, Graphine, etc),
+                  hardware and environmental settings. It will help to reduces time and labor consumption in research of
+                  quantum technologies.
+                  <br> <br>
+               <div class="text-center">
+                  <p><img class="img-fluid" alt="Realistic human bodies" src="images/2d_1.jpg"></p>
+               </div>
+
+               <br> <br>
+               <div class="text-center">
+                  <p><img class="img-fluid" alt="Realistic human bodies" src="images/2d_2.jpg"></p>
+               </div>
+
+               <br> <br>
+               <div class="text-center">
+                  <p><img class="img-fluid" alt="Realistic human bodies" src="images/2d_3.jpg"></p>
+               </div>
+               </p>
             </div>
          </div>
       </div>
-   </section> -->
+   </section>
 
    <section id="pubs" class="">
       <div class="container">
@@ -171,7 +108,7 @@
                <a class="publink" target="_blank" href="https://arxiv.org/pdf/2205.15948.pdf"><b>
                      Two-Dimensional Quantum Material Identification via Self-Attention and Soft-labeling in Deep
                      Learning</b><br></a>
-               <!-- In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021 -->
+               Under review of the IEEE International Conference in Image Processing. 2022.
                <br><br>
                <pre style="display: block; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px">@article{Nguyen2022TwoDimensionalQM,
                title={Two-Dimensional Quantum Material Identification via Self-Attention and Soft-labeling in Deep Learning},
@@ -179,12 +116,31 @@
                journal={ArXiv},
                year={2022},
                volume={abs/2205.15948}
-}</pre>
+               }
+               </pre>
+            </div>
+
+            <div class="col-lg-10 mx-auto">
+               <!-- <h2 class="section-title-tc">Publication</h2> -->
+               <br>
+               Dendukuri, Aditya, Blake Keeling, Arash Fereidouni, Joshua Burbridge, Khoa Luu, and Hugh Churchill<br>
+               <a class="publink" target="_blank" href="https://arxiv.org/pdf/2205.15948.pdf"><b>Defining Quantum Neural
+                     Networks via Quantum Time Evolution</b><br></a>
+               In Proceedings of Quantum Techniques in Machine Learning. 2019
+               <br><br>
+               <pre style="display: block; background-color: #f5f5f5; border: 1px solid #ccc; border-radius: 4px">@article{dendukuri2019defining,
+               title={Defining quantum neural networks via quantum time evolution},
+               author={Dendukuri, Aditya and Keeling, Blake and Fereidouni, Arash and Burbridge, Joshua and Luu, Khoa and Churchill,
+               Hugh},
+               journal={arXiv preprint arXiv:1905.10912},
+               year={2019}
+               }
+               </pre>
             </div>
          </div>
       </div>
    </section>
-   <section id="team" class="team-section">
+   <!-- <section id="team" class="team-section">
       <div class="container">
          <div class="row">
             <div class="col-lg-10 mx-auto">
@@ -247,7 +203,7 @@
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
    <!-- Footer -->
    <footer class="py-5 bg-dark">
       <div class="container">
