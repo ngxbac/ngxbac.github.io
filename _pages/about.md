@@ -6,7 +6,8 @@ description:
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile_circle.png
+  image_cicular: True # crops the image to make it circular
   address: >
     <p>JBHT #447</p>
     <p>227 N Harmon Ave</p>
@@ -22,4 +23,4 @@ His research topics are more about Computer vision, Unsupervised learning, Self-
 
 Bac used to be a top [Kaggler](https://www.kaggle.com/backaggle) (highest rank ~50/130000 worldwide). He got serveral achivements from top AI competitions at CVPR, MICCAI, ISBI, RSNA, etc.
 
-He also worked a Senior AI Research Engineer at [VinAI Research Vietnam](https://www.vinai.io), an Embedded Software Engineer at i-Bridge (Japan) and has solid experiments working as a bridge between academida and industry. 
+He also worked as a Senior AI Research Engineer at [VinAI Research Vietnam](https://www.vinai.io), an Embedded Software Engineer at i-Bridge (Japan) and has solid experiments working as a bridge between academida and industry. His prior projects relate to Face Recognition, 3D Perception Object Detection for Autonomous Vehicle and Driver Monitoring System.
