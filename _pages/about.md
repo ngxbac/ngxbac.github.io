@@ -18,9 +18,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Xuan-Bac Nguyen is a a PhD student at CSCE - University of Arkansas, United State under supervision of Professor [Khoa Luu](http://csce.uark.edu/~khoaluu/). He received Master of Computer Science at Chonnam National University with Professor [Gueesang Lee](https://eng.jnu.ac.kr/eng_eng/15205/subview.do?enc=Zm5jdDF8QEB8JTJGcHJvZiUyRmVuZ19lbmclMkYzMTQlMkY0MzklMkZ2aWV3LmRvJTNG) and B.Sc degree in Electronics and Telecommunication, University of Engineering and Technology, Vietnam National University.
-His research topics are more about Computer vision, Unsupervised learning, Self-supervised learning, etc.
+Xuan-Bac Nguyen is a dedicated PhD student at CSCE - University of Arkansas in the United States, where he is under the guidance and supervision of Professor [Khoa Luu](http://csce.uark.edu/~khoaluu/). He holds a Master's degree in Computer Science from Chonnam National University, where he worked alongside Professor Gueesang Lee. His academic journey began with a B.Sc degree in Electronics and Telecommunication from the University of Engineering and Technology, Vietnam National University.
 
-Bac used to be a top [Kaggler](https://www.kaggle.com/backaggle) (highest rank ~50/130000 worldwide). He got serveral achivements from top AI competitions at CVPR, MICCAI, ISBI, RSNA, etc.
+Bac's research primarily focuses on intriguing areas such as Computer Vision, Unsupervised Learning, Self-supervised Learning, and more. He has consistently demonstrated his expertise in these fields and has actively contributed to the academic community.
 
-He also worked as a Senior AI Research Engineer at [VinAI Research Vietnam](https://www.vinai.io), an Embedded Software Engineer at i-Bridge (Japan) and has solid experiments working as a bridge between academida and industry. His prior projects relate to Face Recognition, 3D Perception Object Detection for Autonomous Vehicle and Driver Monitoring System.
+Notably, Bac has established himself as a highly skilled [Kaggle](https://www.kaggle.com/backaggle) competitor, achieving an impressive rank of around 50 out of 130,000 participants worldwide. He has garnered numerous accomplishments from prestigious AI competitions such as CVPR, MICCAI, ISBI, and RSNA.
+
+In addition to his academic pursuits, Bac has gained valuable industry experience. He has served as a Senior AI Research Engineer at [VinAI Research Vietnam](https://www.vinai.io), showcasing his proficiency in cutting-edge technologies. Furthermore, he has worked as an Embedded Software Engineer at i-Bridge in Japan, where he contributed to projects involving Face Recognition, 3D Perception Object Detection for Autonomous Vehicles, and Driver Monitoring Systems.
+
+Bac's multifaceted background allows him to bridge the gap between academia and industry, ensuring the practical application of his research. His diverse experiences and achievements make him a promising and accomplished individual in the field of AI and computer science.
