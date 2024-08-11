@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Fairness continual learning approach to semantic scene understanding in open-world environments"
+date:   2023-12-10 00:00:00 +00:00
+image: /images/FairCL.png
+categories: research
+authors: "Thanh-Dat Truong, <strong>Hoang-Quan Nguyen</strong>, Bhiksha Raj, Khoa Luu"
+venue: "NeurIPS"
+arxiv: https://arxiv.org/abs/2305.15700
+video: https://www.youtube.com/watch?v=RSw8CJNFk94
+code: https://github.com/uark-cviu/FairCL
+poster: https://neurips.cc/media/PosterPDFs/NeurIPS%202023/72011.png
+---
