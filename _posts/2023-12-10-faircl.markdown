@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Fairness continual learning approach to semantic scene understanding in open-world environments"
+title:  "Fairness Continual Learning Approach to Semantic Scene Understanding in Open-World Environments"
 date:   2023-12-10 00:00:00 +00:00
 image: /images/FairCL.png
 categories: research
