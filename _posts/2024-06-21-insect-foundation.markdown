@@ -10,4 +10,5 @@ arxiv: https://arxiv.org/abs/2311.15206
 video: https://www.youtube.com/watch?v=4kcKf1vF-oA
 website: https://uark-cviu.github.io/projects/insect_foundation.html
 code: https://github.com/uark-cviu/InsectFoundationModel
+poster: https://cvpr.thecvf.com/media/PosterPDFs/CVPR%202024/31753.png
 ---
