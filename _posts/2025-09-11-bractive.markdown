@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Bractive: A brain activation approach to human visual brain learning"
+date:   2025-09-11 00:00:00 +00:00
+image: /images/bractive.png
+categories: research
+authors: "<strong>Xuan-Bac Nguyen</strong>, Hojin Jang, Xin Li, Samee U Khan, Pawan Sinha, Khoa Luu"
+venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+arxiv: https://arxiv.org/pdf/2405.18808
+highlight: true
+---

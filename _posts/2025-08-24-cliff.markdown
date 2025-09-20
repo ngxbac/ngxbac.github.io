@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "CLIFF: Continual Learning for Incremental Flake Features in 2D Material Identification"
+date:   2025-08-25 00:00:00 +00:00
+image: /images/cliff.png
+categories: research
+authors: "Sankalp Pandey, <strong>Xuan Bac Nguyen</strong>, Nicholas Borys, Hugh Churchill, Khoa Luu"
+venue: "Under Submission"
+arxiv: https://arxiv.org/pdf/2508.17261?
+---

@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Otadapt: Optimal transport-based approach for unsupervised domain adaptation"
+date:   2022-08-21 00:00:00 +00:00
+image: /images/otadapt.png
+categories: research
+authors: "Thanh-Dat Truong, Ravi Teja Nvs Chappa, <strong>Xuan-Bac Nguyen</strong>, Ngan Le, Ashley PG Dowling, Khoa Luu"
+venue: "ICPR"
+arxiv: https://ieeexplore.ieee.org/abstract/document/9956335
+---

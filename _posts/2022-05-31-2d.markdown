@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Two-dimensional quantum material identification via self-attention and soft-labeling in deep learning"
+date:   2022-05-31 00:00:00 +00:00
+image: /images/2dmaterial.png
+categories: research
+authors: "<strong>Xuan Bac Nguyen</strong>, Apoorva Bisht, Ben Thompson, Hugh Churchill, Khoa Luu, Samee U Khan"
+venue: "IEEE Access"
+arxiv: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10684707
+---

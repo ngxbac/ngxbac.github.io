@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Cobra: A continual learning approach to vision-brain understanding"
+date:   2024-11-25 00:00:00 +00:00
+image: /images/cobra.png
+categories: research
+authors: "<strong>Xuan-Bac Nguyen</strong>, Manuel Serna-Aguilera, Arabinda Kumar Choudhary, Pawan Sinha, Xin Li, Khoa Luu"
+venue: "Under Submission"
+arxiv: https://arxiv.org/pdf/2411.17475
+---

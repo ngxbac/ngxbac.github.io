@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "BRAIN: Bias-Mitigation Continual Learning Approach to Vision-Brain Understanding"
+date:   2025-08-25 00:00:00 +00:00
+image: /images/brain.png
+categories: research
+authors: "<strong>Xuan-Bac Nguyen</strong>, Thanh-Dat Truong, Pawan Sinha, Khoa Luu"
+venue: "Under Submission"
+arxiv: https://arxiv.org/pdf/2508.18187?
+---

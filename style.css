@@ -75,3 +75,34 @@ h1 {
 span.highlight {
     background-color: #ffffd0
 }
+
+/* Scrollable container used for Recent News in _layouts/default.html */
+.scroll-container {
+    max-height: 300px; /* adjust as needed */
+    overflow-y: auto;
+    padding-right: 8px; /* space for scrollbar */
+}
+
+/* Optional: nicer thin scrollbar for WebKit browsers */
+.scroll-container::-webkit-scrollbar {
+    width: 8px;
+}
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+.scroll-container:focus {
+    outline: 2px solid #1772d0; /* keyboard accessibility */
+}
+
+/* Background highlight for news items */
+.news-highlight {
+    background-color: #ffffd0;
+    padding: 8px 6px;
+    border-radius: 4px;
+}
+
+/* Background highlight for research/post rows in the listing */
+.post-highlight {
+    background-color: #ffffd0;
+}

@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Self-supervised learning based on spatial awareness for medical image analysis"
+date:   2020-09-03 00:00:00 +00:00
+image: /images/ssl.png
+categories: research
+authors: "<strong>Xuan Bac Nguyen</strong>, Guee Sang Lee, Soo Hyung Kim, Hyung Jeong Yang"
+venue: "IEEE Access"
+arxiv: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9186121
+highlight: true
+---
