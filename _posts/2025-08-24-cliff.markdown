@@ -5,6 +5,6 @@ date:   2025-08-25 00:00:00 +00:00
 image: /images/cliff.png
 categories: research
 authors: "Sankalp Pandey, <strong>Xuan Bac Nguyen</strong>, Nicholas Borys, Hugh Churchill, Khoa Luu"
-venue: "Under Submission"
+venue: "AI4Mat-NeurIPS-2025"
 arxiv: https://arxiv.org/pdf/2508.17261?
 ---
